@@ -31,14 +31,14 @@ def age_cal(day : int = Query (... , gt=0 , lt=32),
     age_in_h = int(age_in_h)
     
     if year < 1850:
-        message = "اخبار فرعون؟"
+        message = "hmm are you lying?"
     else :
-        message = "العمر كله"
+        message = "the result!"
     
-    return { "!النتيجة" : message ,
-            "عمرك بالسنين" : age_in_yers ,
-            "بالشهور" : age_in_months ,
-            "بالايام" : age_in_days ,
-            "بالساعات" : age_in_h}
+    return { " " : message ,
+            "your age in years" : age_in_yers ,
+            "your age in months" : age_in_months ,
+            "your age in days" : age_in_days ,
+            "your age in hours" : age_in_h}
     
 
